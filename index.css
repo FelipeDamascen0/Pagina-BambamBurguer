@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #ffb923;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/*MENU*/
+#menu{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#logo{
+  margin-right: 800px;
+}
+
+.menuTab{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  display: block;
+  right: 0;
+  width: 100%;
+  border-bottom: 1px solid #222;
+}
+
+#navbarSupportedContent li a{
+  color: #fff;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#navbarSupportedContent li a:hover{
+  opacity: 0.6;
+}
+/*FIM MENU*/
+
+/*SESSAO PRINCIPAL*/
+#site{
+  flex: 1 auto;
+}
+
+#imageMenu{
+
+}
+
+#name{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+}
+
+#name h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#info{
+  text-align: center;
+  background-color: transparent;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 100% !important;
+}
+
+#whatsapp{
+  width: 300px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#whatsapp p{
+  padding-top: 20px;
+}
+
+
+
+#whatsapp:hover{
+  background-color: #333;
+  color: #fff;
+  opacity: 1;
+}
+
+
+#info a{
+  margin: 10px;
+  border: 3px solid #222;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: #fff;
+}
+
+#horarioPrincipal{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#horario{
+  border: 3px solid #222;
+  text-align: center;
+  display: block;
+  width: 500px;
+  color: #000;
+}
+
+#horario h4{
+  padding-top: 13px;
+}
+
+#historia{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+#textoHistoria{
+  text-align: center;
+  width: 500px;
+}
+
+#footer{
+  border-top: 1px solid #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width:100%;
+  color: #fff;
+  background-color: #ffb923;
+}
+
+#infoFooter{
+  padding: 20px;
+}
+
+#rodape{
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+#rodape p{
+  font-size: 12px;
+  color: #fff;
+  padding-top: 5px;
+}
+/*FIM SESSAO PRINCIPAL*/
+
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1000px) {
+  #logo{
+    margin-right: 0;
+  }
+
+  #navbarSupportedContent li a{
+    text-align: center;
+    padding-right: 0;
+  }
+  
+  #whatsapp{
+    width: 150px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 994px) and (max-width: 1123px) {
+	#logo{
+    margin-right: 500px;
+  }
+
+  #whatsapp{
+    width: 150px;
+  }
+
+
+  #imageMenu{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 742px) and (max-width: 3000px) {
+  #name{
+    padding-top: 180px;
+  }
+
+  #imageMenu{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 1130px) and (max-width: 1239px) {
+	#logo{
+    margin-right: 800px;
+  }
+
+  #whatsapp{
+    width: 150px;
+  }
+
+  #imageMenu{
+    height: 500px;
+  }
+}
